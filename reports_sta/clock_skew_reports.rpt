@@ -1,0 +1,14 @@
+****************************************
+Report : clock_skew
+Design : cpu_lite_top
+Version: S-2021.06-SP2
+Date   : Thu Oct  8 09:42:08 2026
+****************************************
+
+              Min Rise  Min Fall  Max Rise  Max Fall     Hold          Setup        Related
+Object          Delay     Delay     Delay     Delay   Uncertainty   Uncertainty      Clock
+-----------------------------------------------------------------------------------------------
+CLK_Fast         0.00      0.00      0.00      0.00      0.00          0.07           -- 
+CLK_Slow         0.00      0.00      0.00      0.00      0.00          0.14           -- 
+
+1

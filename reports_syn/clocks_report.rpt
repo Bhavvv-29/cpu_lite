@@ -1,0 +1,22 @@
+Warning: Design 'cpu_lite_top' has '2' unresolved references. For more detailed information, use the "link" command. (UID-341)
+ 
+****************************************
+Report : clocks
+Design : cpu_lite_top
+Version: S-2021.06-SP4
+Date   : Thu Oct  8 09:38:18 2026
+****************************************
+
+Attributes:
+    d - dont_touch_network
+    f - fix_hold
+    p - propagated_clock
+    G - generated_clock
+    g - lib_generated_clock
+
+Clock          Period   Waveform            Attrs     Sources
+--------------------------------------------------------------------------------
+CLK_Fast         6.67   {0 3.3335}                    {CLK_Fast}
+CLK_Slow        14.28   {0 7.1425}                    {CLK_Slow}
+--------------------------------------------------------------------------------
+1

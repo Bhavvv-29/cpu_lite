@@ -1,0 +1,18 @@
+****************************************
+Report : timing
+	-path_type full
+	-delay_type max
+	-nworst 20
+	-slack_lesser_than 0.00
+	-max_paths 20
+	-sort_by slack
+Design : cpu_lite_top
+Version: S-2021.06-SP2
+Date   : Thu Oct  8 09:42:08 2026
+****************************************
+
+Warning: There are 10958 invalid start points. (UITE-416)
+Warning: There are 10295 invalid end points for constrained paths. (UITE-416)
+No paths with slack less than 0.00.
+
+1

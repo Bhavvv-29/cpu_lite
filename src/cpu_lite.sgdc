@@ -1,0 +1,7 @@
+current_design "cpu_lite_top"
+
+clock -name CLK_Fast -domain d1 -period 6.667 -tag CLOCK_DOMAIN_1 -edge {0 3.33}
+clock -name CLK_Slow -domain d2 -period 14.285 -tag CLOCK_DOMAIN_2 -edge {0 7.1425 }
+
+reset -name RSTn -value 0 
+

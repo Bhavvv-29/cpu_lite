@@ -1,0 +1,21 @@
+Warning: Design 'cpu_lite_top' has '2' unresolved references. For more detailed information, use the "link" command. (UID-341)
+ 
+****************************************
+Report : constraint
+        -all_violators
+Design : cpu_lite_top
+Version: S-2021.06-SP4
+Date   : Thu Oct  8 09:38:18 2026
+****************************************
+
+
+   max_leakage_power
+
+                             Required        Actual
+   Design                   Leakage Power  Leakage Power     Slack
+   -----------------------------------------------------------------
+   cpu_lite_top                 0.00       1248815104.00  -1248815104.00
+                                                                    (VIOLATED)
+
+
+1

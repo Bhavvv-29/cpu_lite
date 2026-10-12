@@ -1,0 +1,97 @@
+Warning: Design 'cpu_lite_top' has '2' unresolved references. For more detailed information, use the "link" command. (UID-341)
+ 
+****************************************
+Report : qor
+Design : cpu_lite_top
+Version: S-2021.06-SP4
+Date   : Thu Oct  8 09:38:18 2026
+****************************************
+
+
+  Timing Path Group 'CLK_Fast'
+  -----------------------------------
+  Levels of Logic:              49.00
+  Critical Path Length:          6.04
+  Critical Path Slack:           0.47
+  Critical Path Clk Period:      6.67
+  Total Negative Slack:          0.00
+  No. of Violating Paths:        0.00
+  Worst Hold Violation:          0.00
+  Total Hold Violation:          0.00
+  No. of Hold Violations:        0.00
+  -----------------------------------
+
+  Timing Path Group 'CLK_Slow'
+  -----------------------------------
+  Levels of Logic:              12.00
+  Critical Path Length:          1.83
+  Critical Path Slack:          12.23
+  Critical Path Clk Period:     14.28
+  Total Negative Slack:          0.00
+  No. of Violating Paths:        0.00
+  Worst Hold Violation:          0.00
+  Total Hold Violation:          0.00
+  No. of Hold Violations:        0.00
+  -----------------------------------
+
+
+  Cell Count
+  -----------------------------------
+  Hierarchical Cell Count:          7
+  Hierarchical Port Count:        745
+  Leaf Cell Count:              12876
+  Buf/Inv Cell Count:             808
+  Buf Cell Count:                  57
+  Inv Cell Count:                 751
+  CT Buf/Inv Cell Count:            0
+  Combinational Cell Count:      9445
+  Sequential Cell Count:         3431
+  Macro Count:                      0
+  -----------------------------------
+
+
+  Area
+  -----------------------------------
+  Combinational Area:    26047.726819
+  Noncombinational Area: 23009.690154
+  Buf/Inv Area:           1262.841536
+  Total Buffer Area:           155.54
+  Total Inverter Area:        1107.31
+  Macro/Black Box Area:      0.000000
+  Net Area:              21716.085982
+  -----------------------------------
+  Cell Area:             49057.416973
+  Design Area:           70773.502955
+
+
+  Design Rules
+  -----------------------------------
+  Total Number of Nets:         13553
+  Nets With Violations:             0
+  Max Trans Violations:             0
+  Max Cap Violations:               0
+  -----------------------------------
+
+
+  Hostname: feserver.mirafra.com
+
+  Compile CPU Statistics
+  -----------------------------------------
+  Resource Sharing:                    7.49
+  Logic Optimization:                  4.91
+  Mapping Optimization:               26.64
+  -----------------------------------------
+  Overall Compile Time:              107.91
+  Overall Compile Wall Clock Time:   111.62
+
+  --------------------------------------------------------------------
+
+  Design  WNS: 0.00  TNS: 0.00  Number of Violating Paths: 0
+
+
+  Design (Hold)  WNS: 0.00  TNS: 0.00  Number of Violating Paths: 0
+
+  --------------------------------------------------------------------
+
+
+1
